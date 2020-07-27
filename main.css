@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+body {
+    font-size: 12px;
+    list-style: none;
+    font: 13px/23px 'PingFang SC',Arial,'Microsoft YaHei',sans-serif;
+}
+/* 顶部 */
+header {
+    padding-bottom: 180px;
+    text-align: center;
+}
+header a {
+    cursor: pointer;
+}
+
+.top-left {
+    position: absolute;
+    height: 60px;
+    padding-left: 24px;
+}
+.top-left a {
+    text-decoration: none;
+    margin-right: 27px;
+    margin-top: 19px;
+    display: inline-block;
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    height: 60px;
+    right: 0;
+    padding-right: 24px;
+}
+.top-right a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 19px 0 0 31px;
+    position: relative;
+}
+.top-right a:first-child {
+    color: red;
+}
+.top-right a:first-child:hover {
+    color: #4e71f2;
+}
+.top-right a:last-child {
+    height: 24px;
+    width: 48px;
+    line-height: 24px;
+    background-color: #4e71f2;
+    color: white;
+    margin: 18px 0 0 32px;
+    border-radius: 6px;
+    font-weight: 400;
+}
+header a:hover {
+    color: #4e71f2;
+}
+/* 头部结束 */
+
+/* 下面是中间部分 */
+.main {
+    position: relative;
+    height: 100%;
+    width: 654px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.pic img {
+    width: 270px;
+    height: 129px;
+    cursor: pointer;
+    text-align: center;
+    bottom: 15px;
+}
+form {
+    list-style: none;
+    text-align: left;
+    z-index: 1;
+    display: block;
+}
+.s_ipt {
+    position: relative;
+    width: 546px;
+    text-align: left;
+}
+.ipt_rec,.soutu_btn {
+    background-image: url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-2x-6258e1cf13.png); 
+    background-size: 24px 96px;
+    background-color: white;
+    width: 24px;
+    height: 20px;
+    top: 70%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1; 
+}
+.ipt_rec {
+    background-position: 0 -2px; 
+    right: 52px;
+    left: initial;
+    margin-top: -10px;
+}
+.soutu_btn {
+    background-position: 0 -51px;
+    right: 16px;
+    margin-top: -9px;   
+}
+.ipt {
+    width: 500px;
+    height: 16px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #c4c7ce;
+    border-radius: 10px 0 0 10px;
+    color: #222222;
+    overflow: hidden;
+}
+.ipt:focus {
+    border: 2px solid #4e6ef2;
+    border-radius: 10px 0 0 10px;
+}
+
+.s_btn {
+    width: 108px;
+    height: 44px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+.btn {
+    cursor: pointer;
+    width: 108px; 
+    line-height: 44px;
+    padding: 0;
+    background-color: #4e6ef2;
+    border-radius: 0 10px 10px 0;
+    box-shadow: none;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400px;
+    border: none;
+    position: relative;
+    left: -10px;
+}
+
+/* 底部 */
+
+footer {
+    width: 100%;
+    position: fixed;
+    z-index: 302;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    overflow: hidden;
+    margin: 0;
+    background-color: #fafafa;
+    line-height: 40px;
+    font-size: 12px;
+    
+}
+footer a,span {
+    text-decoration: none;
+    color: #9195a3;
+    cursor: pointer;
+}
+.foot-left {
+    float: left;
+}
+.foot-right {
+    float: right;
+    color: #bbb;
+}
+.lh:first-child {
+    margin-left: 30px;
+}
+.lh:last-child {
+    margin-right: 30px;
+}
+.lh {
+    display: inline;
+    margin-right: 20px;
+    
+}
